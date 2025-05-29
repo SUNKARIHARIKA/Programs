@@ -4,7 +4,7 @@ arr=[1, 2,3, 4, 5,6]
 #Explanation: The array contains all integers from 2 to 6 with no missing numbers or duplicates. The consecutive sequence is 
 # [2, 3, 4, 5, 6].
 #brute force approach
-'''arr.sort()
+arr.sort()
 for i in range(1,len(arr)):
     if arr[i]!=arr[i-1]+1:
         print('false')
@@ -23,7 +23,7 @@ for i in range(minimum,maximum+1):  #o(n)
         print('False')
         break
 else:
-    print('True')'''
+    print('True')
 #the time complexity is o(2n)
 #the spac complexity is o(n)
 #optimal approach
