@@ -1,8 +1,8 @@
 arr1=[1,1,2,3,3,4,5,5]
 arr2=[1,2,2,4,5,6]
 #brute force solution
-'''s=set(arr1+arr2)
-print(s)'''
+s=set(arr1+arr2)
+print(s)
 #the time complexity of brute force approach is o(m+n) where m=len(arr1) and n=len(arr2)
 #<----otimal approach--->
 n1=len(arr1)
