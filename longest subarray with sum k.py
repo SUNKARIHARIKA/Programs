@@ -1,5 +1,5 @@
 #brute force approach
-'''arr=[1,2,3,4,5]
+arr=[1,2,3,4,5]
 k=3
 longest=0
 for i in range(len(arr)):
@@ -20,7 +20,7 @@ for i in range(len(arr)):
         current_sum+=arr[j]
         if current_sum==k:
             longest=max(longest,j-i+1)
-print(longest)'''
+print(longest)
 #the time complexity is o(n**2)
 #the space complexity is o(1)
 #optimal approach
