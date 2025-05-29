@@ -1,5 +1,5 @@
 #with parameter with return type
-'''def prime(n):
+def prime(n):
     flag=0
     for i in range(2,n):
         if(n%i==0):
@@ -11,9 +11,9 @@
         return("number is prime")
 num=int(input("enter number"))
 c=prime(num)
-print(c)'''
+print(c)'
 #with parameter without return type
-'''def prime(n):
+def prime(n):
     flag=0
     for i in range(2,n):
         if(n%i==0):
@@ -24,9 +24,9 @@ print(c)'''
     else:
         print("number is prime")
 num=int(input("enter number"))
-prime(num)'''
+prime(num)
 #without parameters with return type
-'''def prime():
+def prime():
     n=int(input("enter number"))
     flag=0
     for i in range(2,n):
@@ -38,7 +38,7 @@ prime(num)'''
     else:
         return "number is prime"
 c=prime()
-print(c)'''
+print(c)
 #without parameter without return type
 def prime():
     n=int(input("enter number"))
