@@ -1,13 +1,13 @@
-'''
+
 n=int(input("enter number"))
 d=int(input("enter denominator: "))
 try:
     q=n/d
     print("Qotient: ",q)
 except ZeroDivisionError:
-    print("Denominator can not be zero")'''
+    print("Denominator can not be zero")
 
-'''try:
+try:
     n=int(input("enter number"))
     d=int(input("enter denominator: "))
     q=n/d
@@ -15,7 +15,7 @@ except ZeroDivisionError:
 except ZeroDivisionError:
     print("Denominator can not be zero")
 except ValueError:
-    print("Invalid data type")'''
+    print("Invalid data type")
 
 #else clause
 try:
