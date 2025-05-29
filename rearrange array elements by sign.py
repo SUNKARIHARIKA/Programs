@@ -1,4 +1,4 @@
-'''arr=[3,4,-2,9,-3,-1]
+arr=[3,4,-2,9,-3,-1]
 positive=[]
 negative=[]
 for i in arr:  #o(n)
@@ -25,7 +25,7 @@ for i in arr:
     else:
         result[negative]=i
         negative+=2
-print(result)'''
+print(result)
 #the time complexity of the above approach is o(n)
 #the space complexity of the above approach is o(n)
 #<---------------IF the condition that number of positive and negative elements are not same----------->
