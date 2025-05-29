@@ -10,7 +10,7 @@ for i in range(len(arr1)):
 print(intersection)
 #the time complexity id o()
 #optimal solution
-'''n1=len(arr1)
+n1=len(arr1)
 n2=len(arr2)
 intersection=[]
 i,j=0,0
@@ -23,6 +23,6 @@ while i<n1 and j<n2:
         i+=1
     else:
         j+=1
-print(intersection)'''
+print(intersection)
 
 
