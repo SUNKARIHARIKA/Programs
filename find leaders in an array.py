@@ -13,11 +13,11 @@ print(result)
 #the time complexity of the above approach is o(n**2)
 #the space complexity is o(n)
 #optimal solution
-'''result=[]
+result=[]
 maximum=float('-inf')
 for i in range(len(arr)-1,-1,-1):
     if arr[i]>maximum:
         result.append(arr[i])
         maximum=arr[i]
-print(result)'''
+print(result)
 
