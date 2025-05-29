@@ -1,6 +1,6 @@
 arr=[0,1,2,0,1,2,0,1,2]
 #brute foce approch
-'''arr.sort()
+arr.sort()
 print(arr)
 #the time complexity of the above brute force approah is o(nlogn)
 #the space complexity/auxilary is o(1)
@@ -25,7 +25,7 @@ for i in range(cnt1):
 for i in range(cnt2):
     arr[index]=2
     index+=1
-print(arr)'''
+print(arr)
 #the time complexity of the better solution is o(n)
 #the extra/auxilary space is o(1)
 #<-----optimal approach----->
