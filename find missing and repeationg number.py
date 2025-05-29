@@ -1,7 +1,7 @@
 arr= [4,3,6,2,1,1]
 n=6
 #brute foce approach
-'''for i in range(1,n+1):
+for i in range(1,n+1):
     cnt=0
     for j in range(n):
         if i==arr[j]:
@@ -38,7 +38,7 @@ val2=val2/val1
 x=(val1+val2)//2
 y=x-val1
 print('missing number',x)
-print('repeating number',y)'''
+print('repeating number',y)
 #another optimal approach (using xor)
 xor1=0
 xor2=0
