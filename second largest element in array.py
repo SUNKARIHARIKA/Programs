@@ -1,6 +1,6 @@
 #brute force approach
 #the time complexity of the above approach is o(nlogn)+o(n)    nlogn-->sorting  o(n)--serching space complexity is o(1)
-'''arr=[1,2,4,5,7,7]
+arr=[1,2,4,5,7,7]
 arr.sort()
 print(arr)
 largest=arr[len(arr)-1]
@@ -25,7 +25,7 @@ secondlargest=-1
 for i in range(len(arr)):
     if arr[i]>secondlargest and arr[i]!=largest:
         secondlargest=arr[i]
-print(secondlargest)'''
+print(secondlargest)
 #optimal approach
 arr=[1,2,4,7,7,5]
 largest=arr[0]
