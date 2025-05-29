@@ -1,10 +1,10 @@
-'''n=int(input("enter the value"))
+n=int(input("enter the value"))
 import math
 print(math.ceil(math.sqrt(n)))==math.floor(math.sqrt(16))
 print(math.isqrt(15))
 l1=[1,2,3,4,5]
 l2=[1,2,3,4]
-print(l1==l2)'''
+print(l1==l2)
 head = [1,2,3,4,5]
 #[1,3,5,2,4]
 odd=0
