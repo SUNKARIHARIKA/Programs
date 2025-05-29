@@ -1,6 +1,6 @@
 arr=[[1,3],[2,6],[8,9],[9,11],[8,10],[2,4],[15,18],[16,17]]
 #brute force approach
-'''result=[]
+result=[]
 n=len(arr)
 arr.sort()
 for i in range(len(arr)):
@@ -14,7 +14,7 @@ for i in range(len(arr)):
         else:
             break
     result.append([start,end])
-print(result)'''
+print(result)
 #the time complexity is o(nlogn)+o(2n) where o(nlogn) for sorting the array and o(2n) is we are iterating each element at 2 times
 n=len(arr)
 arr.sort()
