@@ -15,3 +15,5 @@ for i in range(len(nums)):
             j+=1
             k-=1
 print(result)
+#the time complexity is o(n**2)
+#the auxilary space is o(1)
