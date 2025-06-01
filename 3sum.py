@@ -24,12 +24,13 @@ for i in range(len(nums)):
 for i in result:
     l.append(list(i))
 print(l)
+#we have used set in better solution because the accessing the element in set is faster than list with low time complexity and we want distinct indices
 #to reduce the time complexity to o(nlogn)+o(n**2)=>o(n**2) with space complexity=>o(1)
 nums.sort()
 result=[]
 for i in range(len(nums)):
     if(i>0 and nums[i]==nums[i-1]):
-        i+=1
+        continue
     j=i+1
     k=len(nums)-1
     while j<k:
@@ -40,13 +41,18 @@ for i in range(len(nums)):
             k-=1
         else:
             result.append([nums[i],nums[j],nums[k]])
+            #after finding the triplet we have to increment both i and j to get another new triplet 
             j+=1
             k-=1
+            #after increment we have check the unique j and k values because duplicates must be skipped
             while j<k and nums[j]==nums[j-1]:
                 j+=1
             while k>j and nums[k]==nums[k+1]:
                 k-=1
 print(result)
+#the time complexity is o(nlogn) for sorting and o(n**2)--two pointers scan 
+#overall time complexity is o(n**2)
+#auxilary space is o(1)
 
 
 
