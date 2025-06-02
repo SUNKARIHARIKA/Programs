@@ -32,3 +32,5 @@ list1=create([1,2,4,5])
 list2=create([1,3,4,5,6])
 node=mergesorted(list1,list2)
 display(node)
+#the time complexity is o(m+n)
+#where m is the number of elements in list1 and n is the number of elements in list2
